@@ -13,13 +13,12 @@ import { useSelector } from 'react-redux';
 
 export default function App() {
 
-  const [tempLoginState, settempLoginState] = useState('loggedout');
   const loginstatus = useSelector(state => state.auth);
 
   function About() {
-    return <div className='d-flex justify-content-center align-items-center vh-100 main-container'>
-        <h2 >About</h2>
-        <p>Made By Muhammad Bilal Khan</p>
+    return <div className='container d-flex justify-content-center align-items-center vh-100 main-container'>
+        <h2 className='row' >About</h2>
+        <p className='row'>Made By Muhammad Bilal Khan</p>
     </div>;
   }
 
