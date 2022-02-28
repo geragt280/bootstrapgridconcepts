@@ -1,0 +1,62 @@
+.App {
+  background-color: black;
+}
+.main-container{
+  background-color: gold;
+}
+.form-box{
+  border-style: solid;
+  border-width: 10;
+  border-color: black;
+  border-radius: 5%;
+}
+.form-buttons{
+  text-align: center;
+}
+.nav-bar{
+  display: inline-flex;
+}
+.link{
+  color: gold;
+}
+.tab-bar{
+  background-color: rgb(21, 115, 71);
+  color:white;
+  cursor: pointer;
+}
+.tab-bar-border{
+  border-bottom: 3px solid;
+}
+.tab-bar-border:hover{
+  color: gold;
+}
+.grid-box{
+  border: 3px solid;
+  background-color: white;
+  border-radius: 5px;
+}
+.grid-head{
+  width: 100%;
+  background-color: white;
+  border-bottom: 3px solid;
+}
+.grid-item-list{
+  color:black
+}
+.list-single-item{
+  border: 1px solid;
+  cursor: pointer;
+}
+.grid-item-list :hover{
+  background-color: lightslategrey;
+  color: white;
+}
+.item-detail-box{
+  border-left: 3px solid;
+}
+.close-details :hover{
+  color: lightblue;
+}
+.close-details-icon{
+  cursor: pointer;
+}
